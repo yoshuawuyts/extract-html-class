@@ -33,3 +33,14 @@ tape('removes duplicates', function (assert) {
   assert.deepEqual(extract(html), expected, 'array was same')
   assert.end()
 })
+
+tape('matches fancy classes', function (assert) {
+  var html = `
+    <body class=_7750a623>
+      <h1>hello planet</h1>
+    </body>
+  `
+  var expected = [ '_7750a623' ]
+  assert.deepEqual(extract(html), expected, 'array was same')
+  assert.end()
+})

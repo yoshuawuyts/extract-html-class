@@ -1,6 +1,6 @@
 var assert = require('assert')
 
-var findHtml = /class=["']([\d\w-_ ]+)+["']/g
+var findHtml = /class=["']?([\d\w-_ ]+)+["']?/g
 module.exports = extract
 
 function extract (html) {
