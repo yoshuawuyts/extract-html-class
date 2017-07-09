@@ -2,7 +2,7 @@
   "name": "extract-html-class",
   "description": "Extract all classes from html",
   "repository": "yoshuawuyts/extract-html-class",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "deps": "dependency-check . && dependency-check . --extra --no-dev",
     "start": "node .",
